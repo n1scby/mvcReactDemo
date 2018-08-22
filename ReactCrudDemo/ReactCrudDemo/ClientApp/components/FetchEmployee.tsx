@@ -88,7 +88,7 @@ export class FetchEmployee extends React.Component<RouteComponentProps<{}>, Fetc
                         <td>{emp.department}</td>
                         <td>{emp.city}</td>
                         <td>
-                            <a className="action" onClick={(id) => this.handleEndit(emp.employeeId)}>Edit</a>
+                            <a className="action" onClick={(id) => this.handleEdit(emp.employeeId)}>Edit</a> | 
                             <a className="action" onClick={(id) => this.handleDelete(emp.employeeId)}>Delete</a>
                         </td>
                     </tr>
